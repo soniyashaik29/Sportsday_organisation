@@ -2,7 +2,7 @@
 
 # 🏆 Sports Day Organization Management System
 
-A modern web-based Sports Day Organization platform designed to simplify sports event management, participant registration, event scheduling, and result tracking. This project was developed as part of a **Computer Science Project (CSP)** over a period of **2 months**, focusing on creating an efficient and user-friendly solution for organizing sports events.
+A modern web-based Sports Day Organization platform designed to simplify sports event management, participant registration, event scheduling, and result tracking. This project was developed as part of a **Community service Project (CSP)** over a period of **2 months**, focusing on creating an efficient and user-friendly solution for organizing sports events.
 
 ## 🌐 Live Demo
 

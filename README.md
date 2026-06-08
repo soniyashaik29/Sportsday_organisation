@@ -56,7 +56,6 @@ Sportsday_organisation/
 ├── index.html
 ├── css/
 ├── js/
-├── images/
 ├── assets/
 └── README.md
 ```
@@ -101,14 +100,6 @@ Simply open the `index.html` file in your browser.
 * Real-Time Score Tracking
 * Event Result Management
 * Email Notifications
-
----
-
-## 👩‍💻 Author
-
-**Soniya Shaik**
-
-* GitHub: [Soniya Shaik GitHub Profile](https://soniyashaik29.github.io/Sportsday_organisation/)
 
 ---
 

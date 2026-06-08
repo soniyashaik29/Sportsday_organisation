@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Games Registration</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="registration-panel" aria-labelledby="page-title">
+        <div class="form-heading">
+          <div>
+            <p class="school-label">Annual Activity Registration</p>
+            <h1 id="page-title">Student Registration Document</h1>
+          </div>
+          <span class="badge">8:00 AM - 6:00 PM</span>
+        </div>
+
+        <form id="registrationForm" class="registration-form">
+          <div class="field-grid">
+            <label class="field" for="studentName">
+              <span>Student Name</span>
+              <input id="studentName" name="studentName" type="text" placeholder="Enter full name" aria-label="Student Name" required>
+            </label>
+
+            <label class="field" for="studentClass">
+              <span>Class</span>
+              <select id="studentClass" name="studentClass" aria-label="Class" required>
+                <option value="">Choose class</option>
+                <option value="6">Class 6</option>
+                <option value="7">Class 7</option>
+                <option value="8">Class 8</option>
+                <option value="9">Class 9</option>
+                <option value="10">Class 10</option>
+              </select>
+            </label>
+          </div>
+
+          <section class="choice-section" aria-labelledby="games-title">
+            <div class="section-title">
+              <h2 id="games-title">Games</h2>
+              <p>Multiple choices allowed</p>
+            </div>
+            <div id="gamesChoices" class="option-grid"></div>
+          </section>
+
+          <section class="choice-section" aria-labelledby="sports-title">
+            <div class="section-title">
+              <h2 id="sports-title">Solo Sports</h2>
+              <p>No participation limit</p>
+            </div>
+            <div id="sportsChoices" class="option-grid"></div>
+          </section>
+
+          <div class="actions">
+            <button class="primary-button" type="submit">Submit Form</button>
+            <button class="secondary-button" type="reset">Clear</button>
+          </div>
+        </form>
+      </section>
+
+      <aside class="side-panel" aria-label="Cartoon students and timing">
+        <div class="cartoon-card">
+          <div class="cartoon-scene" aria-hidden="true">
+            <div class="student student-one">
+              <span class="hair"></span>
+              <span class="face"></span>
+              <span class="body"></span>
+              <span class="leg left"></span>
+              <span class="leg right"></span>
+            </div>
+            <div class="student student-two">
+              <span class="hair"></span>
+              <span class="face"></span>
+              <span class="body"></span>
+              <span class="leg left"></span>
+              <span class="leg right"></span>
+            </div>
+            <div class="ball"></div>
+            <div class="book"></div>
+          </div>
+        </div>
+
+        <section class="schedule-card" aria-labelledby="schedule-title">
+          <div class="section-title compact">
+            <h2 id="schedule-title">Game Timing</h2>
+            <p>45 min game + 10 min break</p>
+          </div>
+          <div id="submitStatus" class="submit-status" role="status" aria-live="polite" hidden></div>
+          <div id="studentSummary" class="student-summary">Submit the form to see the selected game timing clearly.</div>
+          <ol id="scheduleList" class="schedule-list"></ol>
+        </section>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
